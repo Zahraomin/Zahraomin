@@ -5,7 +5,6 @@ export default function About() {
         <div className="about" id="about">
         <div className="left">
             <div className="imgContainer">
-                <img src="../../assets/photo.png" alt=""/>
             </div>
         </div>
         <div className="right">
@@ -13,6 +12,14 @@ export default function About() {
                 <h2>Hi There, I'm</h2>
                 <h1>Zahra Omer Mohamed</h1>
                 <h3>Software Developer</h3>
+                <div className="desc">
+                <p>
+                An ambitious and highly motivated software engineering graduate who </p>
+                <p>developed a mature and responsible approach to any task that is undertaken </p>
+                <p>and is seeking to find the opportunity to work in a challenging working</p> 
+                <p>environment that encourages career development</p>
+                </div>
+                
             </div>
         </div>
             
