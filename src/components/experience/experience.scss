@@ -1,4 +1,135 @@
+
+.experienceContainer{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cont1, .cont3{
+    width: 30%;
+    // border: 2px solid white;
+
+
+}
+
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+
+}
 .experience{
 
-    background-color: rgb(119, 113, 139);
+    width: 40%;
+    background-color: white;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+
+    box-shadow: whitesmoke;
+
+   
+
+
+    .work1{
+       flex-direction: row;
+       display: flex;
+       margin-left: 10%;
+
+      
+    }
+    .date{
+        float: left;
+        
+
+       }
+
+       .workContainer{
+           float: right;
+           width: 50%;
+           margin-left: 10px;
+           border-left: 2px solid black;
+           padding-left: 10px;
+
+
+       }
+
+    .work2{
+        float: right;
+        flex-direction: row;
+       display: flex;
+       margin-left: 30%;
+
+
+       .date{
+           width: 150px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+        
+        
+       }
+       .workContainer{
+        width:60%;
+    }
+
+       
+       
+ 
+     }
+
+
+     .work3{
+         flex-direction: row;
+         display: flex;
+         margin-left: 10%;
+
+
+
+       .workContainer{
+        width:50%;
+    }
+ 
+     }
+
+    h2 {
+        margin: 10px;
+        font-size: 20px;
+        color: rgb(119,123,147);
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .wrk3{
+   
+        
+
+        
+    }
+    
+
+    h3{
+
+        font-size: 15px;
+
+    }
+    p{
+        width: 70%;
+    }
+    ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        
+        li::before {
+         margin-right: 10px;   
+         content: "⁍"; color: black}
+    }
+
+
 }

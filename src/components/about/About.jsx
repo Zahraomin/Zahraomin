@@ -5,6 +5,7 @@ export default function About() {
         <div className="about" id="about">
         <div className="left">
             <div className="imgContainer">
+            <img src="../assets/photo.png" class="img"></img>
             </div>
         </div>
         <div className="right">

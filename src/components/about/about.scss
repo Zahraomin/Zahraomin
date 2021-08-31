@@ -10,13 +10,18 @@
         .imgContainer{
             width: 800px;
             height: 800px;
-            border-radius: 50%;
+            background-color: rgb(119,123,147);
+            // border-radius: 50%;
+            // border-bottom-left-radius: 100%;
+            // border-top-right-radius: 100%;
+
+
             display: flex;
             align-items: flex-end;
-            justify-content: center;
             float: right;
 
             img{
+                float: right;
                 height:100%;
             }
         }
